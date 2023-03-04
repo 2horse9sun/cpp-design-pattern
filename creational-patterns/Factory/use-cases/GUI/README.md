@@ -1,0 +1,3 @@
+# Use case: GUI Toolkit
+
+Let's say you are building a GUI toolkit that needs to create different types of GUI components like buttons and checkboxes on different platforms. You can use the Abstract Factory pattern to create a factory for creating components on a specific platform.  Each of these factories would implement a common interface that defines methods for creating their respective components. The client code can then use these factories to create different components without knowing their concrete classes.

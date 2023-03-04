@@ -6,6 +6,7 @@ This repository contains templates and common use cases implemented with C++ for
 
 1. [Singleton](./creational-patterns/Singleton)
 2. [Prototype](./creational-patterns/Prototype)
+3. [Factory](./creational-patterns/Factory)
 
 ## Structural Patterns
 
