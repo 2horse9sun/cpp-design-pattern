@@ -11,6 +11,7 @@ This repository contains templates and common use cases implemented with C++ for
 ## Structural Patterns
 
 1. [Proxy](./structural-patterns/Proxy)
+2. [Decorator](./structural-patterns/Decorator)
 
 ## Behavioral Patterns
 
