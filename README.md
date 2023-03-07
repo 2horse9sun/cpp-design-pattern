@@ -16,3 +16,4 @@ This repository contains templates and common use cases implemented with C++ for
 ## Behavioral Patterns
 
 1. [Observer](./behavioral-patterns/Observer)
+2. [Iterator](./behavioral-patterns/Iterator)
