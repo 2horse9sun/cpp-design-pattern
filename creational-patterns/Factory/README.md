@@ -8,7 +8,7 @@ The factory design pattern is often used in situations where **the creation of a
 
 # Use Cases
 
-1. UI components: An Abstract Factory can be used to create families of related UI components, such as buttons, text boxes, and menus. This can ensure that the components have a consistent look and feel and are compatible with each other. ([GUI](./use-cases/GUI))
+1. UI components: An Abstract Factory can be used to create families of related UI components, such as buttons, text boxes, and menus. This can ensure that the components have a consistent look and feel and are compatible with each other. ([GUI Toolkit](./use-cases/GUI))
 2. Database drivers: An Abstract Factory can be used to create families of related database drivers, such as JDBC drivers for different databases. This can ensure that the drivers have a consistent API and behavior, regardless of the underlying database.
 3. Operating system APIs: An Abstract Factory can be used to create families of related operating system APIs, such as file system APIs, network APIs, and process APIs. This can ensure that the APIs have a consistent interface and behavior, regardless of the underlying operating system.
 4. Encryption algorithms: An Abstract Factory can be used to create families of related encryption algorithms, such as symmetric encryption algorithms and asymmetric encryption algorithms. This can ensure that the algorithms are compatible with each other and have a consistent API.

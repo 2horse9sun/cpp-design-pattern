@@ -9,7 +9,7 @@ The Observer pattern is used to **reduce coupling between objects and promote lo
 # Use Cases
 
 1. Event handling: An Observer can be used to handle events, such as user input, network events, or system events. This can simplify the code for event handling and make it more modular and reusable.
-2. UI updates: An Observer can be used to update the user interface when the underlying data changes. This can ensure that the UI remains in sync with the data and reduces the need for manual updates. ([MVC](./use-cases/MVC))
+2. UI updates: An Observer can be used to update the user interface when the underlying data changes. This can ensure that the UI remains in sync with the data and reduces the need for manual updates. ([MVC architecture](./use-cases/MVC))
 3. Message passing: An Observer can be used to pass messages between objects, such as in a publish-subscribe system. This can simplify the code for message passing and make it more flexible and scalable.
 4. Monitoring: An Observer can be used to monitor the state of a system, such as a network or a server. This can alert users or administrators when the system enters an error state or needs attention.
 5. Logging: An Observer can be used to log events or data changes, such as in a debugging or auditing system. This can help diagnose problems or track changes over time.

@@ -98,7 +98,7 @@ Solution: use `volatile` modifier to prevent compiler from reordering instructio
 
 # Use Cases
 
-1. Configuration settings: A Singleton can be used to store configuration settings that need to be accessed throughout an application. ([DBConfig](./use-cases/DBConfig))
+1. Configuration settings: A Singleton can be used to store configuration settings that need to be accessed throughout an application. ([Single DB Config Instance](./use-cases/DBConfig))
 2. Logging: A Singleton can be used to implement a logging service that allows different parts of an application to log messages to the same file or database.
 3. Caching: A Singleton can be used to implement a caching service that stores frequently accessed data in memory.
 4. Database connections: A Singleton can be used to manage database connections, ensuring that only one connection is created and shared across an application.

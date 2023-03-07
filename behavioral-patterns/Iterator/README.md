@@ -8,7 +8,7 @@ Another benefit of the Iterator pattern is that it allows you to provide a stand
 
 # Use Cases
 
-1. Collection traversal: An Iterator can be used to traverse the elements of a collection, such as an array, a list, or a tree. This can simplify the code for iterating over the collection and make it more modular and reusable. ([VectorIterator](./use-cases/VectorIterator))
+1. Collection traversal: An Iterator can be used to traverse the elements of a collection, such as an array, a list, or a tree. This can simplify the code for iterating over the collection and make it more modular and reusable. ([C++ STL vector iterator](./use-cases/VectorIterator))
 2. Lazy loading: An Iterator can be used to load elements of a collection on demand, rather than all at once. This can improve performance and reduce memory usage, especially for large collections.
 3. Filtering and mapping: An Iterator can be used to filter or map elements of a collection, without modifying the underlying collection. This can simplify the code for data processing and make it more flexible and reusable.
 4. Pagination: An Iterator can be used to paginate a large collection, by fetching a small number of elements at a time. This can improve performance and reduce network usage, especially for web applications.
