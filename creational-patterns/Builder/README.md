@@ -1,0 +1,15 @@
+# Builder
+
+The Builder pattern is a creational design pattern that allows you to create complex objects step by step. The pattern **separates the construction of an object from its representation**, so that the same construction process can create different representations. This allows you to **create an object in a more flexible way**, without having to hardcode every aspect of its construction.
+
+In the Builder pattern, there is a separate builder object that is responsible for creating the object. **The builder object has a set of methods that allow you to set the values of various attributes of the object being constructed. Once all the attributes have been set, the builder object returns the fully constructed object to the client**.
+
+The Builder pattern is particularly useful when you need to create complex objects that have **a large number of optional attributes** or when the object construction **involves a complex series of steps**. It can also be useful when you need to **create multiple variations of an object**, but don't want to create a new constructor for each variation.
+
+# Use Cases
+
+1. Complex object creation: When we need to create objects that have many configurable parameters, the Builder Pattern can simplify the process of object creation. For example, if we need to create a complex document with many different types of sections, the Builder Pattern can help us create the document by allowing us to set each section's properties independently. 
+2. Immutable objects: When we need to create immutable objects, the Builder Pattern can be used to construct them. Since immutable objects cannot be modified once they are created, the Builder Pattern can ensure that all the required properties are set correctly during the construction process.
+3. Flexible object creation: When we need to create objects that can have multiple representations, the Builder Pattern can be used to create different variations of the same object. For example, if we need to create a car object that can have different colors, engine sizes, and features, the Builder Pattern can be used to create different variations of the car object without having to create separate classes for each variation. ([ApplicationConfig](./use-cases/ApplicationConfig))
+4. Test data generation: When we need to generate test data for our applications, the Builder Pattern can be used to generate objects with specific properties. This can be useful for testing different scenarios or edge cases.
+5. GUI component creation: When we need to create GUI components, the Builder Pattern can be used to simplify the process of creating and configuring them. Since GUI components often have many configurable properties, the Builder Pattern can simplify the process of setting those properties and creating the component.
