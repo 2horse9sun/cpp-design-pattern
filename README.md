@@ -15,6 +15,7 @@ This repository contains templates and common use cases implemented with C++ for
 2. [Decorator](./structural-patterns/Decorator)
 3. [Adapter](./structural-patterns/Adapter)
 4. [Bridge](./structural-patterns/Bridge)
+5. [Facade](./structural-patterns/Facade)
 
 ## Behavioral Patterns
 
