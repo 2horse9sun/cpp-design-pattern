@@ -17,6 +17,7 @@ This repository contains templates and common use cases implemented with C++ for
 4. [Bridge](./structural-patterns/Bridge)
 5. [Facade](./structural-patterns/Facade)
 6. [Flyweight](./structural-patterns/Flyweight)
+7. [Composite](./structural-patterns/Composite)
 
 ## Behavioral Patterns
 
