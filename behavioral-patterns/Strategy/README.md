@@ -1,0 +1,18 @@
+# Strategy
+
+The Strategy design pattern is a behavioral design pattern that **enables selecting an algorithm at runtime from a family of interchangeable algorithms**. It allows the algorithm to vary independently of the clients that use it. The pattern defines a set of algorithms (called strategies) encapsulated in separate classes, and the client can select the appropriate strategy dynamically based on its requirements.
+
+The main idea behind the Strategy pattern is to encapsulate different behaviors or algorithms into separate classes, making them interchangeable. Instead of implementing a single monolithic algorithm, the client can switch between different strategies as needed, without having to modify its implementation.
+
+# Use Cases
+
+1. Sorting Algorithms: Different sorting algorithms, such as Bubble Sort, Merge Sort, and Quick Sort, can be encapsulated as strategies. The client can select the appropriate sorting strategy based on factors like data size, data type, or performance requirements.
+2. File Compression Utilities: Strategies can represent various compression algorithms like ZIP, GZIP, or LZ77. The client can choose the compression strategy based on factors like desired compression ratio, speed, or compatibility with different file formats.
+3. Payment Processing Systems: Strategies can be used to encapsulate different payment methods like credit card, PayPal, or bank transfer. The client can select the payment strategy based on user preferences, availability, or security requirements.
+4. Image Processing Applications: Strategies can represent different image filtering or transformation algorithms like blur, sharpen, or resize. The client can choose the image processing strategy based on the desired image manipulation or visual effect.
+5. Routing or Pathfinding Algorithms: Strategies can be used to encapsulate different routing or pathfinding algorithms like Dijkstra's algorithm or A* search. The client can select the appropriate strategy based on factors like distance, cost, or time optimization.
+6. Logging or Error Handling: Strategies can represent different logging or error handling approaches. For example, the client can choose to log errors to a file, send them via email, or display them in a user interface, based on the configured strategy.
+7. Data Validation and Input Processing: Strategies can be used to encapsulate different validation or input processing algorithms. For instance, the client can select a strategy for validating user input based on specific rules or constraints, such as email validation, password strength checking, or data format validation.
+8. Gameplay AI in Games: Strategies can represent different AI algorithms or behaviors for non-player characters (NPCs) in games. The client can select the strategy based on the desired behavior, such as aggressive, defensive, or cooperative.
+9. Caching Strategies: Strategies can be used to encapsulate different caching algorithms or approaches. The client can select the caching strategy based on factors like data access patterns, memory constraints, or performance requirements.
+10. [Load Balancing](./use-cases/LoadBalancer): Strategies can represent different load balancing algorithms for distributing requests across servers or resources. The client can select the load balancing strategy based on factors like server availability, resource utilization, or response time.
