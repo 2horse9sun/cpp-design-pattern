@@ -26,3 +26,4 @@ This repository contains templates and common use cases implemented with C++ for
 3. [Template Method](./behavioral-patterns/Template Method)
 4. [Strategy](./behavioral-patterns/Strategy)
 5. [Command](./behavioral-patterns/Command)
+6. [Chain of Responsibility](./behavioral-patterns/Chain of Responsibility)
