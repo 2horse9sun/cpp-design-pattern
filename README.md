@@ -23,10 +23,10 @@ This repository contains templates and common use cases implemented with C++ for
 
 1. [Observer](./behavioral-patterns/Observer)
 2. [Iterator](./behavioral-patterns/Iterator)
-3. [Template Method](./behavioral-patterns/Template Method)
+3. [Template Method](./behavioral-patterns/Template-Method)
 4. [Strategy](./behavioral-patterns/Strategy)
 5. [Command](./behavioral-patterns/Command)
-6. [Chain of Responsibility](./behavioral-patterns/Chain of Responsibility)
+6. [Chain of Responsibility](./behavioral-patterns/Chain-of-Responsibility)
 7. [State](./behavioral-patterns/State)
 8. [Mediator](./behavioral-patterns/Mediator)
 9. [Visitor](./behavioral-patterns/Visitor)
