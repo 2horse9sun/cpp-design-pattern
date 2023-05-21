@@ -31,3 +31,4 @@ This repository contains templates and common use cases implemented with C++ for
 8. [Mediator](./behavioral-patterns/Mediator)
 9. [Visitor](./behavioral-patterns/Visitor)
 10. [Memento](./behavioral-patterns/Memento)
+11. [Interpreter](./behavioral-patterns/Interpreter)
