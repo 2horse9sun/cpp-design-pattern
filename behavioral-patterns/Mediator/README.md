@@ -1,0 +1,13 @@
+# Mediator
+
+The Mediator design pattern is a behavioral design pattern that helps in **reducing the direct dependencies between multiple objects by introducing a mediator object**. It promotes loose coupling among the objects by centralizing their communication through the mediator.
+
+The primary goal of the Mediator pattern is to simplify the communication and coordination between objects, thereby improving their maintainability and extensibility. It achieves this by **encapsulating the interaction logic** between objects within the mediator object, allowing them to **communicate indirectly** rather than directly.
+
+# Use Cases
+
+1. GUI applications: In graphical user interface (GUI) systems, there are often multiple UI components that need to interact with each other. The Mediator pattern can be employed to handle events and communication between these components, allowing them to update and respond to changes in a coordinated manner. For example, a dialog box mediator can facilitate communication between buttons, text fields, and other UI elements.
+2. Chat systems: In a chat application, multiple users may send messages to each other. The Mediator pattern can be used to centralize the message distribution and handling logic. The mediator acts as a message broker, receiving messages from senders and forwarding them to the intended recipients, ensuring that users communicate indirectly through the mediator.
+3. Air traffic control systems: In complex air traffic control systems, various aircraft, ground control, and radar systems need to communicate and coordinate their actions. The Mediator pattern can be applied to manage the interactions between these different entities. The mediator can handle the routing of communications, collision avoidance, and synchronization of actions.
+4. [Event-driven systems](./use-cases/Event): In systems where events play a crucial role, such as event-driven architectures or reactive systems, the Mediator pattern can be beneficial. The mediator acts as a central hub for receiving and dispatching events, coordinating the reactions of multiple components to these events. This promotes loose coupling between event producers and event consumers.
+5. Multi-player games: In multiplayer games, there are often multiple players and entities that need to interact with each other. The Mediator pattern can facilitate communication and coordination among these entities. The mediator can handle game events, player interactions, and game state updates, enabling the players and entities to interact indirectly through the mediator.
